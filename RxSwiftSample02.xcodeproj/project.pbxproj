@@ -11,6 +11,7 @@
 		0572BD2E200B438A00503AB0 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0572BD1D200B351600503AB0 /* RxDataSources.framework */; };
 		0572BD2F200B438A00503AB0 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0572BD1C200B351600503AB0 /* RxSwift.framework */; };
 		0572BD34200B454500503AB0 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0572BD33200B454500503AB0 /* Differentiator.framework */; };
+		0572BD36200B47B600503AB0 /* Bread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0572BD35200B47B600503AB0 /* Bread.swift */; };
 		05D23177200B2ED0009D9D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D23176200B2ED0009D9D60 /* AppDelegate.swift */; };
 		05D23179200B2ED0009D9D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D23178200B2ED0009D9D60 /* ViewController.swift */; };
 		05D2317C200B2ED0009D9D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D2317A200B2ED0009D9D60 /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 		0572BD1C200B351600503AB0 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
 		0572BD1D200B351600503AB0 /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxDataSources.framework; path = Carthage/Build/iOS/RxDataSources.framework; sourceTree = "<group>"; };
 		0572BD33200B454500503AB0 /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differentiator.framework; path = Carthage/Build/iOS/Differentiator.framework; sourceTree = "<group>"; };
+		0572BD35200B47B600503AB0 /* Bread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bread.swift; sourceTree = "<group>"; };
 		05D23173200B2ED0009D9D60 /* RxSwiftSample02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftSample02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05D23176200B2ED0009D9D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		05D23178200B2ED0009D9D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			children = (
 				05D23176200B2ED0009D9D60 /* AppDelegate.swift */,
 				05D23178200B2ED0009D9D60 /* ViewController.swift */,
+				0572BD35200B47B600503AB0 /* Bread.swift */,
 				05D2317A200B2ED0009D9D60 /* Main.storyboard */,
 				05D2317D200B2ED0009D9D60 /* Assets.xcassets */,
 				05D2317F200B2ED0009D9D60 /* LaunchScreen.storyboard */,
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				05D23179200B2ED0009D9D60 /* ViewController.swift in Sources */,
+				0572BD36200B47B600503AB0 /* Bread.swift in Sources */,
 				05D23177200B2ED0009D9D60 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
